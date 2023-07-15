@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://t2x3dqty0g52"]
+[gd_scene load_steps=6 format=3 uid="uid://t2x3dqty0g52"]
 
 [ext_resource type="Texture2D" uid="uid://wdf2qoeealq2" path="res://assets/tiles/tiles_packed.png" id="1_t5ctj"]
 [ext_resource type="PackedScene" uid="uid://cjt0vjgnbptp3" path="res://scenes/player.tscn" id="2_tvh4v"]
+[ext_resource type="PackedScene" uid="uid://cetj7c71bp8ot" path="res://scenes/game_camera.tscn" id="3_wsuwq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6pkq3"]
 texture = ExtResource("1_t5ctj")
@@ -706,4 +707,4 @@ layer_0/tile_data = PackedInt32Array(196599, 65538, 9, 196601, 65538, 9, 196600,
 
 [node name="Player" parent="." instance=ExtResource("2_tvh4v")]
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="GameCamera" parent="." instance=ExtResource("3_wsuwq")]

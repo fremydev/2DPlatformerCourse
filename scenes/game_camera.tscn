@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cetj7c71bp8ot"]
+
+[ext_resource type="Script" path="res://scenes/game_camera.gd" id="1_d23v5"]
+
+[node name="GameCamera" type="Camera2D"]
+script = ExtResource("1_d23v5")
+background_color = Color(0.87451, 0.964706, 0.960784, 1)
